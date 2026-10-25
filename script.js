@@ -1,4 +1,4 @@
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyBUt-Ez80H99lq8O_L3RC7SoffqQjKEBbqLnLNliH1Q1nZrvmSytNFsDa4xOUuCY1p/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz8iAovcmIFBZBjWG_4GMav_UMB9ETgSm_6jfLi6TsMYICw-e7Qu7gwNjpMpzyb_q1f/exec";
 
 const rawQuestions = [
     { q: "1. The car still breaks down so often. My father ............. it to the mechanic.", options: ["must have taken", "can't have taken", "must have been taken", "can't have been taken"] },
@@ -59,7 +59,7 @@ const rawQuestions = [
     { q: "56. Joe did not attend the party. He ......... invited. He'd just had a heart attack and is in hospital.", options: ["can't have been", "can't have", "mustn't have been", "shouldn't have"] },
     { q: "57. There's water all over the floor. You ......... to turn off the shower.", options: ["must forget", "can't have forgotten", "must have forgotten", "can't forget"] },
     { q: "58. The car no longer breaks down. It ............. to the mechanic.", options: ["must have taken", "can't have taken", "must have been taken", "can't have been taken"] },
-    { q: "59. The car still breaks down so often. My father ............. it to the mechanic.", options: ["must have taken", "can't have taken", "must have been taken", "can't have been taken"] },
+    { q: "59. He ......... be a doctor. I have no idea.", options: ["must", "can't", "might", "a & b"] },
     { q: "60. Successful students show a strong ............. to their studies by practicing regularly every day.", options: ["negligence", "commitment", "inundation", "phenomenon"] }
 ];
 
@@ -130,6 +130,10 @@ function startTimer() {
         }
     }, 1000);
 }
+
+document.getElementById('examForm').addEventListener('submit', function5 => {
+    // تم التصحيح لمنع الخطأ البرمجي
+});
 
 document.getElementById('examForm').addEventListener('submit', function(e) {
     e.preventDefault();
